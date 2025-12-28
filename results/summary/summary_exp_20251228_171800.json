@@ -1,0 +1,85 @@
+{
+  "experiment_id": "exp_20251228_171800",
+  "timestamp": "2025-12-28T17:29:01.444005",
+  "total_evaluations": 210,
+  "aggregate_metrics": {
+    "accuracy": 0.6,
+    "reasoning_depth": 0.49137931034482757,
+    "recovery_rate": 0.1111111111111111,
+    "consistency_score": 0.7047619047619048,
+    "step_efficiency": 0.5029871715586002,
+    "error_propagation_rate": 0.8888888888888888
+  },
+  "model_metrics": {
+    "groq_llama3_70b": {
+      "accuracy": 0.6285714285714286,
+      "count": 70,
+      "avg_latency_ms": 2728.385714285714
+    },
+    "groq_llama3_8b": {
+      "accuracy": 0.6142857142857143,
+      "count": 70,
+      "avg_latency_ms": 2557.885714285714
+    },
+    "groq_qwen3_32b": {
+      "accuracy": 0.5571428571428572,
+      "count": 70,
+      "avg_latency_ms": 4125.9
+    }
+  },
+  "strategy_metrics": {
+    "zero_shot": {
+      "accuracy": 0.8,
+      "count": 105
+    },
+    "cot": {
+      "accuracy": 0.4,
+      "count": 105
+    }
+  },
+  "category_metrics": {
+    "causal": {
+      "accuracy": 0.5416666666666666,
+      "count": 48,
+      "avg_reasoning_depth": 0.0
+    },
+    "multi_hop": {
+      "accuracy": 0.5952380952380952,
+      "count": 42,
+      "avg_reasoning_depth": 0.6190476190476191
+    },
+    "instruction": {
+      "accuracy": 0.7142857142857143,
+      "count": 42,
+      "avg_reasoning_depth": 0.09523809523809523
+    },
+    "logic": {
+      "accuracy": 0.38095238095238093,
+      "count": 42,
+      "avg_reasoning_depth": 0.30952380952380953
+    },
+    "math": {
+      "accuracy": 0.8055555555555556,
+      "count": 36,
+      "avg_reasoning_depth": 0.3888888888888889
+    }
+  },
+  "error_distribution": {
+    "premise_misunderstanding": 10,
+    "other": 17,
+    "logical_fallacy": 27,
+    "arithmetic": 12,
+    "hallucination": 2,
+    "sign_error": 2
+  },
+  "api_summary": {
+    "experiment_id": "exp_20251228_171800",
+    "total_calls": 210,
+    "successful_calls": 210,
+    "failed_calls": 0,
+    "success_rate": 1.0,
+    "average_latency_ms": 3131.5333333333333,
+    "total_retries": 0,
+    "log_file": "C:\\Users\\DELL\\PycharmProjects\\llm-reasoning-eval\\results\\logs\\api_calls_exp_20251228_171800.jsonl"
+  }
+}

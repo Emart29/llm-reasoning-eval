@@ -1,0 +1,11 @@
+{
+  "experiment_id": "exp_20251228_171800",
+  "total_calls": 210,
+  "successful_calls": 210,
+  "failed_calls": 0,
+  "success_rate": 1.0,
+  "average_latency_ms": 3131.5333333333333,
+  "total_retries": 0,
+  "log_file": "C:\\Users\\DELL\\PycharmProjects\\llm-reasoning-eval\\results\\logs\\api_calls_exp_20251228_171800.jsonl",
+  "generated_at": "2025-12-28T17:29:01.453129"
+}

@@ -1,0 +1,19 @@
+# requirements.txt
+pandas
+python-dotenv
+numpy
+openai
+requests
+matplotlib
+seaborn
+scipy
+# for progress bars
+tqdm
+# for property-based testing
+hypothesis
+pytest
+# for multi-model support
+anthropic
+google-generativeai
+groq
+tenacity
